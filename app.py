@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing import image
 import matplotlib.pyplot as plt
 
 # **Step 1: Load the trained model**
-model = tf.keras.models.load_model('D:/Chicken_feacel_disease_classification/chicken_fecal_model.h5')
+model = tf.keras.models.load_model('chicken_fecal_model.h5')
 
 # **Step 2: Define the class names**
 class_names = ['Healthy', 'coccidiosis']
